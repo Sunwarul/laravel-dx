@@ -1,0 +1,27 @@
+{
+    "name": "sunwarul/laravel-dx",
+    "version": "0.0.1",
+    "description": "Useful tools when work with laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunwarul\\LaravelDx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunwarul Islam",
+            "email": "sanoarulslm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Sunwarul\\LaravelDx\\LaravelDxServiceProvider"
+            ]
+        }
+    }
+}
